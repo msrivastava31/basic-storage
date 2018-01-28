@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Text Settings">
+        <EditTextPreference
+            android:key="Key 1"
+            android:title="Setting 1"
+            android:summary="Setting 1 Summary"
+            android:dialogMessage="Edit Key 1"
+            android:defaultValue="Value 1" />
+    </PreferenceCategory>
+</PreferenceScreen>
